@@ -36,5 +36,7 @@ export default function Recipe(){
     }
 
 
-    return <h1>recipe</h1>
+    return <div className="recipe">
+        
+    </div>
 }

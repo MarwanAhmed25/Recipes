@@ -31,9 +31,9 @@ export default function RecipeDetail(){
     }
 
     if(isError){
-        return <>
-            <p className="w-full text-red-700 bg-red-400">{error}</p>
-        </>
+        return <div className="detail">
+            
+        </div>
     }
 
 

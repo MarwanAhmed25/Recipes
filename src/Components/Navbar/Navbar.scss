@@ -1,0 +1,42 @@
+
+.navbar{
+    background-color: #F9FAFB;
+   
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 30%;
+
+    .image-container{
+        font-size: 0;
+        width: 90%;
+        margin-bottom: 10px; 
+        img{
+            width: 100%;
+        }
+    }
+    .links{
+        padding: 25px;
+        display: flex;
+        flex-wrap: wrap;
+
+        a{
+            width: 96%;
+            margin-left: 2%;
+            background-color: #F29724;
+            padding: 15px;
+            margin: 5px;
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            box-shadow: #F29724 2px 2px 10px;
+            svg{
+                padding-right: 5px
+            }
+        }
+
+        
+    }
+}
